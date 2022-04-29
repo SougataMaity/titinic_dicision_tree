@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: bisque;
+}
+nav{
+    height: 38px;
+    line-height: 39px;
+    background-color: deeppink;
+    color: white;
+    display: flex;
+}
+.row1{
+    display: flex;
+}
+.col1{
+    margin-top: 15vh;
+    padding-right: 3vw;
+}
+.col2{
+    margin : 5vw;
+    padding-left: 5vw;
+    margin-top: 10vh;
+    
+}
+label{
+    display: inline-table;
+    width: 150px;
+    margin-top: 1vh;
+
+}
+select{
+    width: 10vw;
+}
+input{
+    width: 9.7vw;
+}
+.btn{
+    padding: 5px;
+    width: 200px;
+    margin-left: 3.8vw;
+    margin-top: 5vh;
+    border: solid;
+    border-radius: 0.3cm;
+    border-color: deeppink;
+}
+form{
+    border: solid;
+    border-radius: 15px;
+    padding: 2vw;
+    background-color: pink;
+    border-color: deeppink;
+}
+h1, h2, h3{
+    margin-left: 5vw;
+}
+h1{
+    color: red;
+}
+img{
+    width: 98vw;
+    height: 85vh;
+    margin-left: 10px;
+}
+p{
+    margin-left: 40vw;
+    font-size: 30px;
+    color: red;
+    margin-top: 5px;
+}
+#treeplot{
+    float: right;
+    margin-left: 60vw;
+}
+a:link {
+    text-decoration: none;
+}
+a{
+    color:white;
+}
